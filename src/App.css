@@ -1,0 +1,36 @@
+.sidebar {
+  background-color: #f9fafd;
+  border-right: 1px solid #e0e0e0;
+}
+
+.user-list {
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+input {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+}
+
+
+.chat-list-container {
+  overflow: visible;
+  position: relative;
+}
+
+.hover-opacity:hover {
+  opacity: 0.7;
+}
+
+.custom-toggle::after {
+  display: none !important;
+}
+
+.no-caret::after {
+  display: none !important;
+}
