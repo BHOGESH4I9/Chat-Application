@@ -73,7 +73,7 @@ export const ChatProvider = ({ children }) => {
     return () => unsub();
   }, [selectedUser]);
 
-  // ✅ FIXED: Listen for unread message notifications
+  // FIXED: Listen for unread message notifications
   useEffect(() => {
     if (!currentUser) return;
 

@@ -1,4 +1,3 @@
-// src/pages/AuthPage.jsx
 import { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";

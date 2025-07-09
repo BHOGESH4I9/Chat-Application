@@ -42,7 +42,7 @@ const Sidebar = () => {
     }
   };
 
-  // ✅ Custom dropdown toggle without caret
+  // Custom dropdown toggle without caret
   const CustomToggle = React.forwardRef(({ onClick }, ref) => (
     <div
       ref={ref}

@@ -53,7 +53,7 @@ const Chartinput = () => {
     <div
       className="px-2 py-2 border-top"
       style={{
-        backgroundColor: '#ffffff', // ✅ Changed to white
+        backgroundColor: '#ffffff', 
         position: 'relative',
       }}
     >
@@ -78,7 +78,7 @@ const Chartinput = () => {
         className="d-flex align-items-center px-3 py-2 rounded-pill shadow-sm"
         style={{
           height: '48px',
-          backgroundColor: '#ffffff', // ✅ White input background
+          backgroundColor: '#ffffff', 
           border: '1px solid #ccc',
         }}
       >
@@ -99,7 +99,7 @@ const Chartinput = () => {
           placeholder="Type a message"
           className="border-0 flex-grow-1 shadow-none"
           style={{
-            backgroundColor: '#ffffff', // ✅ White input field
+            backgroundColor: '#ffffff', 
             fontSize: '0.95rem',
           }}
           value={text}
