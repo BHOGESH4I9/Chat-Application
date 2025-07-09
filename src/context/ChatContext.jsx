@@ -32,7 +32,6 @@ export const ChatProvider = ({ children }) => {
     lastSeen: null,
   });
 
-  // Generate chatId when user is selected
   useEffect(() => {
     if (currentUser && selectedUser) {
       const id = getChatId(currentUser.uid, selectedUser.uid);
@@ -40,7 +39,7 @@ export const ChatProvider = ({ children }) => {
     }
   }, [selectedUser, currentUser]);
 
-  // Fetch chat messages
+
   useEffect(() => {
     if (!chatId) return;
 
@@ -55,7 +54,7 @@ export const ChatProvider = ({ children }) => {
     return () => unsub();
   }, [chatId]);
 
-  // Listen to selectedUser's status (online/lastSeen)
+
   useEffect(() => {
     if (!selectedUser) return;
 
@@ -73,7 +72,7 @@ export const ChatProvider = ({ children }) => {
     return () => unsub();
   }, [selectedUser]);
 
-  // FIXED: Listen for unread message notifications
+ 
   useEffect(() => {
     if (!currentUser) return;
 
@@ -107,7 +106,7 @@ export const ChatProvider = ({ children }) => {
     return () => unsub();
   }, [currentUser]);
 
-  // Mark messages as read when user opens the chat
+  
   useEffect(() => {
     if (!chatId || !currentUser) return;
 
