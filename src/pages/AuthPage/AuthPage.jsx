@@ -85,11 +85,11 @@ const AuthPage = () => {
       <div className="auth-left-split">
         <div className="welcome-text">
           <h1 className="desktop-heading">ChatBox</h1>
-          <p className="subtitle">Connecting brains one bug at a time....</p>
+          <p className="subtitle">Welcome to ChatBox — where every message builds a connection.</p>
           <ul className="funny-lines">
-            <li>Welcome to WeChatBox</li>
-            <li>Free Messages to All Friends</li>
-            <li>Make messaging fun with friends</li>
+            <li>Connecting you securely…</li>
+            <li>Crafting the perfect place to talk…</li>
+            <li>No messages yet. Start a conversation worth remembering.</li>
           </ul>
         </div>
       </div>
