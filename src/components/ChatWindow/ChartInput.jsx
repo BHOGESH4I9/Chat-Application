@@ -82,7 +82,7 @@ const Chartinput = () => {
           border: '1px solid #ccc',
         }}
       >
-        {/* Left icons */}
+        
         <div className="d-flex align-items-center me-2">
           <AiOutlinePlus size={20} className="me-2 text-secondary" />
           <BsEmojiSmile
@@ -93,7 +93,7 @@ const Chartinput = () => {
           />
         </div>
 
-        {/* Input field */}
+        
         <Form.Control
           type="text"
           placeholder="Type a message"
@@ -106,7 +106,7 @@ const Chartinput = () => {
           onChange={(e) => setText(e.target.value)}
         />
 
-        {/* Right icon */}
+        
         <div className="ms-2">
           {text.trim() ? (
             <button type="submit" className="btn btn-link p-0" style={{ textDecoration: 'none' }}>
