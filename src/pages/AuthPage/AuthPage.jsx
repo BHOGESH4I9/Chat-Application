@@ -84,10 +84,10 @@ const AuthPage = () => {
       {/* Left Side: Welcome Text */}
       <div className="auth-left-split">
         <div className="welcome-text">
-          <h1 className="desktop-heading">ChartBox</h1>
+          <h1 className="desktop-heading">ChatBox</h1>
           <p className="subtitle">Connecting brains one bug at a time....</p>
           <ul className="funny-lines">
-            <li>Welcome to WeChartBox</li>
+            <li>Welcome to WeChatBox</li>
             <li>Free Messages to All Friends</li>
             <li>Make messaging fun with friends</li>
           </ul>
@@ -97,7 +97,7 @@ const AuthPage = () => {
       {/* Right Side: Form */}
       <div className="auth-right-split">
         {/* Mobile heading */}
-        <div className="mobile-app-name">ChartBox</div>
+        <div className="mobile-app-name">ChatBox</div>
 
         <div className="auth-form">
           <h3 className="text-center mb-3">
