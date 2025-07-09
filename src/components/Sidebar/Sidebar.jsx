@@ -58,10 +58,17 @@ const Sidebar = () => {
 
   return (
     <div
-      className="sidebar bg-light p-3"
-      style={{ width: "450px", height: "100vh", overflowY: "auto" }}
+     className="sidebar-container"
+      style={{
+        width: '100%',
+        height: '100%',
+        overflowY: 'auto',
+        backgroundColor: '#f8f9fa', 
+        padding: '1rem',
+        boxSizing: 'border-box',
+  }}
     >
-      {/* Header: App Title + 3-dot Options */}
+      
       <div className="d-flex justify-content-between align-items-center mb-3">
         <h5 className="m-0 fw-bold text-primary">ChatBox</h5>
 
@@ -74,10 +81,10 @@ const Sidebar = () => {
         </Dropdown>
       </div>
 
-      {/* Search Bar */}
+      
       <SearchBar />
 
-      {/* Users List */}
+      
       <div className="user-list mt-3">
         {loadingUsers ? (
           <p className="text-center text-muted">Loading users...</p>
